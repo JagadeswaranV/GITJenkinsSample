@@ -480,6 +480,9 @@ public class BaseClass {
 		 */
 		public static void getDriver(String browserType)
 		{
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+			/*
 			switch (browserType) {
 			case "chrome":
 				WebDriverManager.chromedriver().setup();
@@ -501,13 +504,14 @@ public class BaseClass {
 			default:
 				break;
 			}
+			*/
 			
 			
-			/**
-			 * @see Method to maximize window
-			 */
 			
 		}
+	                /*
+			 * @see Method to maximize window
+			 */
 		public static void maximizeWindow() 
 		{
 			manage().window().maximize();
