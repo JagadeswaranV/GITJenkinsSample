@@ -12,6 +12,7 @@ import com.pages.SelectHotelPage;
  * @see PageObjectManager class is used to create single object for single page class  
  * @date 27/12/2022
  *
+ *
  */
 public class PageObjectManager
 {
